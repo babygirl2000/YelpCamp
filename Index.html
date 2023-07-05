@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yelp Camp</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  
+</head>
+  <body class="container">
+    <header>
+      <nav id="nav">
+        <img src="/Assets/Logo.svg" alt="logo of yelpcamp" />
+        <div class="links">
+          <div class="left">
+            <a href="#" class="home">Home</a>
+
+            <ul class="right">
+              <li><a href="#" class="username">Johndoe</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true"></i>
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </nav>
+    </header>
+
+    <main class="main-container">
+        <h1>Add New <br> Campground</h1>
+        <form action="/Index.html">
+            <label for="name">Campground Name</label> <br>
+            <input type="text" name="name" id="name" placeholder="Seven Sisters Waterfall">
+            <label for="price">Price</label> <br>
+            <input type="text" name="price" id="price" placeholder="$149">
+            <label for="image">Image</label> <br>
+            <input type="text" name="image" id="image" placeholder="www.example.com">
+            <label for="desc">Description</label> <br>
+            <textarea rows="6" cols="3" id="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laborum asperiores velit veniam? Architecto odit molestias quidem totam recusandae corporis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis et ullam rem magnam non, reiciendis laboriosam accusamus iste excepturi aperiam.
+            </textarea>
+
+            <input type="submit" value="Add Campground">
+            
+        </form>
+
+    </main>
+    <footer>
+        <div class="logo-img">
+            <img src="/Assets/Logo.svg" alt="image of the logo od YelpCamp">
+        </div>
+    </footer>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
