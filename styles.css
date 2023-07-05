@@ -251,3 +251,12 @@ nav .left a{
 
     font-style: italic;
 }
+.title-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-head .username{
+    font-weight: 600;
+}
