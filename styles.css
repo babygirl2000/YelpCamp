@@ -120,6 +120,9 @@ label{
 .card{
     width: 100%;
 }
+.left-card{
+     margin-left: 100px;
+}
 }
 
 /* ====================== main ================= */
@@ -195,6 +198,7 @@ nav .left a{
     border: 1px solid #e2e2e2;
     box-shadow: 0 0 3px rgba(0,0,0,0.3);
     border-radius: 5px;
+   
 
    
 }
@@ -218,7 +222,12 @@ nav .left a{
     text-align: center;
     padding: 30px;
     border-radius: 5px;
+    margin-bottom: 40px;
 
+}
+.col{
+    display: inherit;
+    flex-direction: column;
 }
 .card img{
     width: 100%;
@@ -255,8 +264,44 @@ nav .left a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .title-head .username{
     font-weight: 600;
+    font-size: 18px;
+}
+.title-head .time{
+    font-size: 13px;
+}
+.title-head .desc{
+    margin-bottom: 20px;
+}
+.btns{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    background: #000;
+    color: #fff;
+    display: inherit;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 10px 15px;
+     margin-top: 10px;
+     border: none;
+}
+.btn img{
+    width: 26px;
+    height:26px;
+    background: #000;
+    margin: 0;
+    margin-right: 7px;
+   
+}
+.btn p{
+    font-size: 18px;
+    font-weight: 600;
+    background: #000;
 }
